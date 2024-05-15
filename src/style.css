@@ -1,0 +1,32 @@
+
+body {
+  background-color: #000; /* Black background color */
+  color: #fff; /* White text color for better contrast */
+}
+
+
+.textarea-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /*
+  textarea {
+    width: 45%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  */
+
+  textarea {
+    width: calc(50% - 5px); /* Adjust for border and padding */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
